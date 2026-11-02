@@ -1,0 +1,1 @@
+var t=class{production=!0;PrefixAtFilePath=`/HFA/`;API_URL=`https://api.hindustanfootballacademy.com/api/`;imageUrl(e){return`${this.PrefixAtFilePath}${e.replace(/^\/+/,``)}`}};var r=new t;export{r as t};
