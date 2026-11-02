@@ -5,6 +5,9 @@
   <title>HosurFootballAcademy</title>
   <base href="/HFA/">
   <script>
+    alert(location.hostname);
+    alert(location.pathname);
+
     if (location.hostname === 'jeevasoft.github.io' && location.pathname === '/') {
       location.replace('/HFA/' + location.search + location.hash);
     }
